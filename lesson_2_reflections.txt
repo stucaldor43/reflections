@@ -1,0 +1,14 @@
+1) What happens when you initialize a repository?Why do you need to do it?
+
+  A hidden git folder is inserted into the directory/repository when you
+  initialize a repository. Without the git folder changes to files within the
+  repository cannot be tracked, therefore you can't revert files to previous
+  states.
+
+2) How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+
+  The staging area is different from the repository and working
+  directory because it allows you to define the files that will go into the
+  repository when you make a commit. It's valuable because you don't always want
+  every file within a directory to be included with a commit.
