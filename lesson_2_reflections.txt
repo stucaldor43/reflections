@@ -12,3 +12,38 @@ repository? What value do you think it offers?
   directory because it allows you to define the files that will go into the
   repository when you make a commit. It's valuable because you don't always want
   every file within a directory to be included with a commit.
+
+3) How can you use the staging area to make sure you have one commit per logical
+change?
+
+  Only place files in the staging area at the same time if they are logically
+  related to one another.
+
+4) What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+  When you want to make changes without affecting the main branch. Branches
+  allow you to accomplish this because the affects of changes are only seen
+  within the branch itself(master branch is unaffected).
+
+5) How do the diagrams help you visualize the branch structure?
+
+  They make it easier to see which commits are children of other commits(and
+  therefore have access to the history of the parent commit).
+
+6) What is the result of merging two branches together? Why do we represent it
+in the diagram the way we do?
+
+  The code from both branches is combined into one. Merging is represented in
+  the way that it is in the diagram because it makes it easier to tell where
+  and when a merge has occurred.
+
+7) What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
+  manual merging pros: finer grained control over the merging process
+  manual merging cons: more susceptible to logical errors, more
+  time-consuming, you have to track down the most recent commit that both files
+  have in common, lines that are different won't be marked for you making it
+  more difficult to identify the lines that are different between the two merged
+  branches.
