@@ -21,6 +21,6 @@
   changes to a given branch only affect that branch.
 
   You use clone if you want to collaborate with the owner of a given repository
-  (pushing/pulling have to be approved by them). Use fork if you just want to
+  (pushing/pulling have to be approved by them). Fork is used if you just want to
   use the files within a repository for yourself. Use branches if you are
   working on something which you don't want on the main branch. 
