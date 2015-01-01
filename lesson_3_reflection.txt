@@ -23,4 +23,15 @@
   You use clone if you want to collaborate with the owner of a given repository
   (pushing/pulling have to be approved by them). Fork is used if you just want to
   use the files within a repository for yourself. Use branches if you are
-  working on something which you don't want on the main branch. 
+  working on something which you don't want on the main branch.
+
+4) What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+  It allows Git to determine how many commits the current branch is ahead(or
+  behind) the remote repository. It also allows you to see the effect that
+  merging with the remote repository branch will have on the current branch.
+  If you won't have access to the internet for a while it allows you to still
+  view the changes made to the remote repository at the last time you synced.
+  Lastly, it allows you to merge while offline and access the log of commits for
+  the remote repository. 
