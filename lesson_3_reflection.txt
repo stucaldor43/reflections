@@ -34,4 +34,15 @@ stored locally?
   If you won't have access to the internet for a while it allows you to still
   view the changes made to the remote repository at the last time you synced.
   Lastly, it allows you to merge while offline and access the log of commits for
-  the remote repository. 
+  the remote repository.
+
+5) How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+  You could use another version control system such as Google Docs or Dropbox.
+  Both Docs and Dropbox would make it easier to make changes because you don't
+  have to remember commands but the trade off would be that they would make it
+  harder for people to work on the same part of the code effectively because
+  people would have to manually identify conflicting code and find a resolution
+  that doesn't introduce bugs. Some of the others can't help you resolve
+  conflicts as easily so merging would be harder when a conflict occurs.
